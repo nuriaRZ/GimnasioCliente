@@ -1,0 +1,52 @@
+div{
+  font-family: 'Poppins', sans-serif;
+}
+.principalItems{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.imagenActividad{
+  margin: 0.5rem;
+}
+
+h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight:400;
+  font-style: italic;
+}
+
+.textoCentrado{
+  position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.btnReservar{
+  text-align: right;
+  padding: 0.5rem;  
+  position: relative;
+  
+}
+
+img:hover{
+  filter: brightness(50%);
+}
+
+.disposicion{
+  display: flex;
+}
+
+.sala{
+  
+  text-decoration: underline;
+}
+
+.colSala{
+  text-align: right;
+}

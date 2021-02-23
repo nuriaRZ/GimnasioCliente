@@ -1,0 +1,15 @@
+#logo .mat-icon {
+    font-size: 45px;
+    margin-top: 1rem;
+    margin-right: 20px;
+    transform: rotate(-45deg);
+  }
+
+#titulo {
+    font-size: 25px;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+

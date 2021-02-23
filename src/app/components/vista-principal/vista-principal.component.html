@@ -1,0 +1,25 @@
+<app-barra-herramientas></app-barra-herramientas>
+
+<div class="container" id="principal">
+    <div class="row principalItems">
+        <div class="col-10"> <h3>ACTIVIDADES DISPONIBLES</h3></div>
+        <div class="col-5" *ngFor="let actividad of listaActividades">
+            <mat-card class="imagenActividad">
+                <img mat-card-image src="{{actividad.imagen}}" alt="">
+                <div class="textoCentrado"><h2>{{actividad.nombre}}</h2></div>                
+                <mat-card-actions layout-align="end center">
+                    <div>
+                    <mat-grid-list cols="2" rowHeight="50px" >
+                        <mat-grid-tile rowspan="2">{{actividad.descripcion}}</mat-grid-tile>
+                        <mat-grid-tile><span class="sala">Sala:</span>&nbsp;{{actividad.lugar}}</mat-grid-tile>
+                        <mat-grid-tile><a mat-raised-button color="warn"  (click)="seleccionarActividad(actividad)">Ver horarios</a></mat-grid-tile>
+                    </mat-grid-list>
+                    
+                </div>
+                </mat-card-actions>
+          </mat-card>
+        </div>
+    </div>
+
+    
+</div>

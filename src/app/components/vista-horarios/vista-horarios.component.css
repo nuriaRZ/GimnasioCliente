@@ -1,0 +1,25 @@
+.tab{
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+  }
+
+  .fecha{
+      background-color: black;
+      color: white;
+      font-weight: 200;
+      text-align: center;
+      height: 2rem;
+      font-family: 'Poppins', sans-serif;
+  }
+  h4{
+      padding-top: 3px;
+  }
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  

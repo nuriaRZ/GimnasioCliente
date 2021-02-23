@@ -1,0 +1,22 @@
+.errorEnValidacion {
+    margin-top: 5px;
+    color: #b65a5a;
+}
+
+.loginCard {
+    max-width: 400px;
+    margin-top: 2rem;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+.main-div{
+    height: 95vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
